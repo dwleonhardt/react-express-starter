@@ -6,7 +6,7 @@
   "license": "ISC",
   "scripts": {
     "knex": "knex",
-    "start": "yarn build; gulp",
+    "start": "yarn build; node API/server.js",
     "test": "mocha",
     "nodemon": "node servers/servers.js",
     "dev": "./node_modules/.bin/webpack -d --watch --config ./webpack.config.js",
@@ -39,6 +39,7 @@
     "moment": "^2.18.1",
     "morgan": "^1.8.2",
     "pg": "^6.4.0",
+    "process-nextick-args": "^1.0.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.1",
