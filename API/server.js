@@ -19,10 +19,10 @@ const indexHTML = `
     </head>
 
     <body>
-      <div class='app'></div>
+      <div id='root'></div>
+      <script type="text/javascript" src="build.js"></script>
     </body>
 
-    <script type="text/javascript" src="build.js"></script>
   </html>
 `;
 
