@@ -1,8 +1,8 @@
 exports.up = function (knex, Promise) {
   return knex.schema.createTable('methods', tbl => {
-    table.increments().primary()
-    table.string('name').notNullable()
-    table.string('description').notNullable()
+    tbl.increments().primary()
+    tbl.string('name').notNullable()
+    tbl.text('description').notNullable()
   });
 };
 
