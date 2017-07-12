@@ -6,7 +6,6 @@
   "license": "ISC",
   "scripts": {
     "knex": "knex",
-    "heroku-postbuild": "knex migrate:rollback --knexfile servers/knexfile.js; knex migrate:latest --knexfile servers/knexfile.js; knex seed:run --knexfile servers/knexfile.js;",
     "start": "yarn build; gulp",
     "test": "mocha",
     "nodemon": "node servers/servers.js",
