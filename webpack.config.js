@@ -21,6 +21,10 @@ const config = {
         test: /\.css$/,
         loader: "style-loader!css-loader",
       }
+      {
+      test: /\.(eot|svg|ttf|woff|woff2)$/,
+      loader: 'file?name=public/fonts/[name].[ext]'
+      }
     ]
   },
   resolve: { // dont have to specify extensions

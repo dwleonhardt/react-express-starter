@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Home = () => {
+const Home = (props) => {
   return (
     <main>
       <h3>Direct Heat</h3>
